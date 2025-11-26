@@ -86,7 +86,7 @@ height: auto;
 }
 @media (max-width:600px){
     .heading{
-        font-size: 10px;
+        font-size: 70%;
     }
 }
 
@@ -476,3 +476,4 @@ footer{
         justify-content: center;
     }
 }
+
