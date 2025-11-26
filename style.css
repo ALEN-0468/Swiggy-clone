@@ -84,6 +84,11 @@ height: auto;
     display: flex;
     justify-content: center;
 }
+@media (max-width:600px){
+    .heading{
+        font-size: 10px;
+    }
+}
 
 .heading h1{
     width: 60%;
@@ -154,6 +159,15 @@ height: auto;
     .loca-cho, .sear-res{
         width: 80vw;
     }
+    .loca-cho input{
+        font-size: 83%;
+    }
+    .sear-res .search{
+    border: none;
+    width: 92%;
+    font-size: 83%;
+    font-weight: bold;
+}
 }
 
 .h-cardcontainer{
@@ -217,7 +231,11 @@ height: auto;
     height: 296px;
     gap: 24px;
 }
-
+@media(max-width:600px){
+    .f-items{
+        height: 41vh;
+    }
+}
 
 
 .groceries{
@@ -425,7 +443,7 @@ footer{
 }
 @media (max-width:600px){
     .overall-links{
-        grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+        grid-template-columns: 1fr 1fr;
         justify-content: center;
         gap: 40px;
    
@@ -457,5 +475,4 @@ footer{
         display: flex;
         justify-content: center;
     }
-
 }
