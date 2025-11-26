@@ -425,8 +425,9 @@ footer{
 }
 @media (max-width:600px){
     .overall-links{
-    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-    justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+        justify-content: center;
+        gap: 40px;
    
 }
 }
@@ -456,4 +457,5 @@ footer{
         display: flex;
         justify-content: center;
     }
+
 }
